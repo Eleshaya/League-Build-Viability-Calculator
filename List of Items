@@ -1,0 +1,35 @@
+class item:
+  def __init__(_ap = 0, _apen = 0, _ad = 0, _as = 0, _critchance = 0, _critdmg = 0, _lifesteal = 0, _mpen = 0, _armor = 0, _healpower = 0, _hp = 0, _hpregen = 0, _mr = 0, _tenacity = 0, _slowresist = 0, _cdr = 0, _mana = 0, _manaregen = 0, _hpGainValue = 0, _goldGainValue = 0):
+    self.ap = _ap
+    self.apen = _apen
+    self.ad = _ad
+    self.as = _as
+    self.critchance = _critchance
+    self.critdmg = _critdmg
+    self.lifesteal = _lifesteal
+    self.mpen = _mpen
+    self.armor = _armor
+    self.healpower = _healpower
+    self.hp = _hp
+    self.hpregen = _hpregen
+    self.mr = _mr
+    self.tenacity = _tenacity
+    self.slowresist = _slowresist
+    self.hpGainValue = _hpGainValue
+    self.goldGainValue = _goldGainValue
+  def triggerAutoOnHit():
+    return
+  def triggerAbilityOnHit():
+    return
+  def triggerUniqueActive():
+    return
+  def checkSpecialPassives():
+    return
+  def tick
+class doransBlade(item):
+  def __init__():
+    super().__init__(_ad = 8,_hp = 80, _lifesteal = 3)
+class doransRing(item)
+  def __init__():
+    super().__init__(
+    
